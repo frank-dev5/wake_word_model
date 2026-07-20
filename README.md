@@ -2,7 +2,7 @@
 
 A lightweight, from-scratch neural wake word detection system built with PyTorch and deployed via ONNX Runtime for fast, dependency-light inference. Trained to recognize the custom wake phrase **"Jaydek"** from streaming microphone audio.
 
----
+--- 
 
 ## Overview
 
