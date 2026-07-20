@@ -1,4 +1,4 @@
-# Jaydek — Custom Wake Word Detector
+# J-Dek — Custom Wake Word Detector
 
 A lightweight, from-scratch neural wake word detection system built with PyTorch and deployed via ONNX Runtime for fast, dependency-light inference. Trained to recognize the custom wake phrase **"Jaydek"** from streaming microphone audio.
 
@@ -92,7 +92,7 @@ python data_standardize.py
 ### 2. Train the model
 
 ```bash
-python train.py
+python train.py 
 ```
 
 Training automatically resumes from `wake_word_model2.pth` if it exists, so re-running the script continues training rather than restarting from scratch.
